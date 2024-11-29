@@ -24,7 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'depth_publisher = ros2slam.src.depth_publisher:main',
-
+            'depth_camera =  ros2slam.src.depth_camera:main',
         ],
     },
 )

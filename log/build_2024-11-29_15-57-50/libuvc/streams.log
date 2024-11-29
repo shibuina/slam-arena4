@@ -1,0 +1,81 @@
+[0.007s] Invoking command in '/home/sora/slam-arena4/build/libuvc': /usr/bin/cmake /home/sora/slam-arena4/libuvc -DCMAKE_INSTALL_PREFIX=/home/sora/slam-arena4/install/libuvc
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.046s] -- Detecting C compiler ABI info
+[0.090s] -- Detecting C compiler ABI info - done
+[0.095s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.095s] -- Detecting C compile features
+[0.096s] -- Detecting C compile features - done
+[0.096s] -- No build type selected, default to Release
+[0.096s] -- No target type selected, default to both shared and static library
+[0.098s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.099s] -- Checking for module 'libusb-1.0'
+[0.108s] --   Found libusb-1.0, version 1.0.25
+[0.130s] -- libusb-1.0 found using pkgconfig
+[0.140s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[0.140s] -- Found JPEG library using standard module
+[0.140s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.140s]   The package name passed to `find_package_handle_standard_args` (JPEG) does
+[0.140s]   not match the name of the calling package (JpegPkg).  This can lead to
+[0.140s]   problems in calling code that expects `find_package` result variables
+[0.140s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.140s] Call Stack (most recent call first):
+[0.140s]   cmake/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+[0.140s]   CMakeLists.txt:45 (find_package)
+[0.140s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.140s] [0m
+[0.141s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so  
+[0.141s] -- Building libuvc with JPEG support.
+[0.141s] -- Looking for pthread.h
+[0.192s] -- Looking for pthread.h - found
+[0.192s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.242s] -- Found Threads: TRUE  
+[0.245s] -- Configuring done
+[0.248s] -- Generating done
+[0.248s] -- Build files have been written to: /home/sora/slam-arena4/build/libuvc
+[0.252s] Invoked command in '/home/sora/slam-arena4/build/libuvc' returned '0': /usr/bin/cmake /home/sora/slam-arena4/libuvc -DCMAKE_INSTALL_PREFIX=/home/sora/slam-arena4/install/libuvc
+[0.253s] Invoking command in '/home/sora/slam-arena4/build/libuvc': /usr/bin/cmake --build /home/sora/slam-arena4/build/libuvc -- -j32 -l32
+[0.286s] [  9%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl-gen.c.o[0m
+[0.286s] [  9%] [32mBuilding C object CMakeFiles/uvc.dir/src/device.c.o[0m
+[0.286s] [ 18%] [32mBuilding C object CMakeFiles/uvc.dir/src/init.c.o[0m
+[0.286s] [ 18%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/init.c.o[0m
+[0.287s] [ 22%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl.c.o[0m
+[0.287s] [ 27%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl.c.o[0m
+[0.287s] [ 31%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame.c.o[0m
+[0.287s] [ 36%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl-gen.c.o[0m
+[0.287s] [ 40%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/device.c.o[0m
+[0.288s] [ 45%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/diag.c.o[0m
+[0.288s] [ 50%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame.c.o[0m
+[0.288s] [ 54%] [32mBuilding C object CMakeFiles/uvc.dir/src/diag.c.o[0m
+[0.288s] [ 59%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame-mjpeg.c.o[0m
+[0.288s] [ 63%] [32mBuilding C object CMakeFiles/uvc.dir/src/stream.c.o[0m
+[0.289s] [ 81%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/stream.c.o[0m
+[0.289s] [ 81%] [32mBuilding C object CMakeFiles/uvc.dir/src/misc.c.o[0m
+[0.290s] [ 81%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame-mjpeg.c.o[0m
+[0.290s] [ 81%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/misc.c.o[0m
+[0.480s] [ 86%] [32m[1mLinking C shared library libuvc.so[0m
+[0.520s] [ 86%] Built target uvc
+[0.530s] [ 90%] [32m[1mLinking C static library libuvc.a[0m
+[0.535s] [ 95%] [32mBuilding C object CMakeFiles/example.dir/src/example.c.o[0m
+[0.565s] [100%] [32m[1mLinking C executable example[0m
+[0.573s] [100%] Built target uvc_static
+[0.592s] [100%] Built target example
+[0.599s] Invoked command in '/home/sora/slam-arena4/build/libuvc' returned '0': /usr/bin/cmake --build /home/sora/slam-arena4/build/libuvc -- -j32 -l32
+[0.607s] Invoking command in '/home/sora/slam-arena4/build/libuvc': /usr/bin/cmake --install /home/sora/slam-arena4/build/libuvc
+[0.613s] -- Install configuration: "Release"
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/libuvc.so.0.0.7
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/libuvc.so.0
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/libuvc.so
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc.h
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc_config.h
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/libuvc.a
+[0.613s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc.h
+[0.613s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc_config.h
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/pkgconfig/libuvc.pc
+[0.613s] -- Installing: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[0.615s] Invoked command in '/home/sora/slam-arena4/build/libuvc' returned '0': /usr/bin/cmake --install /home/sora/slam-arena4/build/libuvc

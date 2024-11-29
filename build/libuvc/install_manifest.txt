@@ -1,0 +1,15 @@
+/home/sora/slam-arena4/install/libuvc/lib/libuvc.so.0.0.7
+/home/sora/slam-arena4/install/libuvc/lib/libuvc.so.0
+/home/sora/slam-arena4/install/libuvc/lib/libuvc.so
+/home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc.h
+/home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc_config.h
+/home/sora/slam-arena4/install/libuvc/lib/libuvc.a
+/home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc.h
+/home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc_config.h
+/home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+/home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+/home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+/home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+/home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+/home/sora/slam-arena4/install/libuvc/lib/pkgconfig/libuvc.pc
+/home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake

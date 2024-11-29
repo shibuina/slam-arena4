@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/sora/slam-arena4/build/libuvc': /usr/bin/cmake --build /home/sora/slam-arena4/build/libuvc -- -j32 -l32
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target uvc[0m
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target uvc_static[0m
+[0.041s] [ 54%] Built target uvc_static
+[0.041s] [ 90%] Built target uvc
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[0.054s] [100%] Built target example
+[0.120s] Invoked command in '/home/sora/slam-arena4/build/libuvc' returned '0': /usr/bin/cmake --build /home/sora/slam-arena4/build/libuvc -- -j32 -l32
+[0.125s] Invoking command in '/home/sora/slam-arena4/build/libuvc': /usr/bin/cmake --install /home/sora/slam-arena4/build/libuvc
+[0.128s] -- Install configuration: "Release"
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/libuvc.so.0.0.7
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/libuvc.so.0
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/libuvc.so
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc.h
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc_config.h
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/libuvc.a
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc.h
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/include/libuvc/libuvc_config.h
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/pkgconfig/libuvc.pc
+[0.129s] -- Up-to-date: /home/sora/slam-arena4/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[0.130s] Invoked command in '/home/sora/slam-arena4/build/libuvc' returned '0': /usr/bin/cmake --install /home/sora/slam-arena4/build/libuvc

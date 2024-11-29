@@ -1,3 +1,4 @@
 [console_scripts]
+depth_camera = ros2slam.src.depth_camera:main
 depth_publisher = ros2slam.src.depth_publisher:main
 

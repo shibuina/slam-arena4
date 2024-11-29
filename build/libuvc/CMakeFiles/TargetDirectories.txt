@@ -1,0 +1,9 @@
+/home/sora/slam-arena4/build/libuvc/CMakeFiles/uvc.dir
+/home/sora/slam-arena4/build/libuvc/CMakeFiles/uvc_static.dir
+/home/sora/slam-arena4/build/libuvc/CMakeFiles/example.dir
+/home/sora/slam-arena4/build/libuvc/CMakeFiles/edit_cache.dir
+/home/sora/slam-arena4/build/libuvc/CMakeFiles/rebuild_cache.dir
+/home/sora/slam-arena4/build/libuvc/CMakeFiles/list_install_components.dir
+/home/sora/slam-arena4/build/libuvc/CMakeFiles/install.dir
+/home/sora/slam-arena4/build/libuvc/CMakeFiles/install/local.dir
+/home/sora/slam-arena4/build/libuvc/CMakeFiles/install/strip.dir

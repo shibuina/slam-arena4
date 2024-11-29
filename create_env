@@ -1,12 +1,15 @@
 sudo apt update
 sudo apt upgrade
-
+sudo apt install libuvc-dev
+sudo apt install ros-humble-magic-enum
 # create virtual environment.
 virtualenv venv
 source venv/bin/activate
 
 # install dependencies.
 pip install --upgrade pip
+pip install empy==3.3.2
+pip install cakin_pkg lark
 pip install typeguard
 pip install opencv-python
 pip install torch --index-url https://download.pytorch.org/whl/cu124

@@ -1,0 +1,1 @@
+/home/sora/slam-arena4/ros2slam/launch/depth_camera.launch.py

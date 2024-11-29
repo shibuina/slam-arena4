@@ -1,0 +1,4 @@
+Invoking command in '/home/sora/slam-arena4/build/libuvc': /usr/bin/cmake --build /home/sora/slam-arena4/build/libuvc -- -j32 -l32
+Invoked command in '/home/sora/slam-arena4/build/libuvc' returned '0': /usr/bin/cmake --build /home/sora/slam-arena4/build/libuvc -- -j32 -l32
+Invoking command in '/home/sora/slam-arena4/build/libuvc': /usr/bin/cmake --install /home/sora/slam-arena4/build/libuvc
+Invoked command in '/home/sora/slam-arena4/build/libuvc' returned '0': /usr/bin/cmake --install /home/sora/slam-arena4/build/libuvc

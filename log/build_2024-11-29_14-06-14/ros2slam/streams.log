@@ -1,0 +1,17 @@
+[0.276s] Invoking command in '/home/sora/slam-arena4/build/ros2slam': PYTHONPATH=/home/sora/slam-arena4/build/ros2slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sora/slam-arena4/install/ros2slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sora/slam-arena4/build/ros2slam/build --no-deps symlink_data
+[0.388s] running develop
+[0.451s] running egg_info
+[0.451s] writing ros2slam.egg-info/PKG-INFO
+[0.451s] writing dependency_links to ros2slam.egg-info/dependency_links.txt
+[0.451s] writing entry points to ros2slam.egg-info/entry_points.txt
+[0.451s] writing requirements to ros2slam.egg-info/requires.txt
+[0.452s] writing top-level names to ros2slam.egg-info/top_level.txt
+[0.452s] reading manifest file 'ros2slam.egg-info/SOURCES.txt'
+[0.452s] writing manifest file 'ros2slam.egg-info/SOURCES.txt'
+[0.453s] running build_ext
+[0.453s] Creating /home/sora/slam-arena4/install/ros2slam/lib/python3.10/site-packages/ros2slam.egg-link (link to .)
+[0.453s] Installing depth_publisher script to /home/sora/slam-arena4/install/ros2slam/lib/ros2slam
+[0.453s] 
+[0.453s] Installed /home/sora/slam-arena4/build/ros2slam
+[0.453s] running symlink_data
+[0.464s] Invoked command in '/home/sora/slam-arena4/build/ros2slam' returned '0': PYTHONPATH=/home/sora/slam-arena4/build/ros2slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sora/slam-arena4/install/ros2slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sora/slam-arena4/build/ros2slam/build --no-deps symlink_data

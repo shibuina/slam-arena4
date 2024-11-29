@@ -1,0 +1,4 @@
+source venv/bin/activate
+colcon build --symlink-install
+source /opt/ros/humble/setup.bash
+source ~/slam-arena4/install/setup.bash
